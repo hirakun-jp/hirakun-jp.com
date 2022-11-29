@@ -1,7 +1,7 @@
 module.exports = {
   title: 'hirakun-jp',
   language: "ja",
-  description: 'DIY trader in japan',
+  description: 'DIY Trader in Japan',
   keywords: ['DIY Trading', 'DIY Trader'],
   // your site url without trailing slash
   url: 'https://hirakun-jp.com',
