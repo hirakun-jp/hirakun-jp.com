@@ -1,6 +1,7 @@
 ---
 title: "7 Things You Should Know About Running a Small Business"
-date: 2019-01-16T10:00
+date: 2019-01-16
+lastmod: 2022-11-25
 thumb: "small-business.jpg"
 tags: 
     - tips

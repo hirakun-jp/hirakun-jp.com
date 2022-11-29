@@ -1,11 +1,11 @@
 const pluginTailwind = require('eleventy-plugin-tailwindcss');
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = (config) => {
   config.addPlugin(pluginTailwind, {
     src: 'src/assets/css/*'
   });
-  config.addPlugin(pluginSyntaxHighlight);
+  config.addPlugin(syntaxHighlight);
 
   config.setDataDeepMerge(true);
 

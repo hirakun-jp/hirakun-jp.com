@@ -1,7 +1,7 @@
 ---
-title: "Typography"
-date: 2020-06-21T08:04
-thumb: "typography.png"
+title: "【parasiTrader】 BDD で開発を進めるメリットとは？"
+date: 2020-06-21
+thumb: "cat.jpg"
 tags: 
     - 日本語
     - C#
@@ -15,9 +15,16 @@ Nunc tristique velit ligula. Phasellus vel massa a lorem facilisis interdum ut a
 
 Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
 
+<figure>
+	<img src="/assets/img/test.jpg" alt="test">
+	<figcaption>test</figcaption>
+</figure>
+
 ## Heading 2
 
 Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
+
+<img src="/assets/img/cat.jpg" alt="cat">
 
 ### Heading 3
 
@@ -39,25 +46,36 @@ Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi
 
 Lid est laborum et dolorum fuga, This is [an example](http://example.com/ "Title") inline link. Et harum quidem rerum facilis, **This is bold** and *emphasis* cumque nihilse impedit quo minus id quod amets untra dolor amet sad. While this is `code block()` and following is a `pre` tag
 
-	print 'this is pre tag'
 
-Following is the syntax highlighted code block
+```csharp
+using Prism.Mvvm;
+using Reactive.Bindings;
+using Reactive.Bindings.Extensions;
+using SpikePrism.Application;
+using SpikePrism.Domain;
+using System;
 
-```go
-func getCookie(name string, r interface{}) (*http.Cookie, error) {
-	rd := r.(*http.Request)
-	cookie, err := rd.Cookie(name)
-	if err != nil {
-		return nil, err
-	}
-	return cookie, nil
-}
+namespace SpikePrism.WPF.ViewModels
+{
+    public class CalculatorViewModel : BindableBase
+    {
+        private readonly CalculatorApplicationService _calculatorApplicationService;
 
-func setCookie(cookie *http.Cookie, w interface{}) error {
-	// Get write interface registered using `Acquire` method in handlers.
-	wr := w.(http.ResponseWriter)
-	http.SetCookie(wr, cookie)
-	return nil
+        public ReactiveCommand RunCommand { get; }
+        public ReactiveCommand CancelCommand { get; }
+        public ReactiveProperty<int> Result { get; }
+
+        public CalculatorViewModel(CalculatorApplicationService calculatorApplicationService)
+        {
+            _calculatorApplicationService = calculatorApplicationService;
+
+            Calculator calculator = _calculatorApplicationService.NewCalculator();
+            RunCommand = new ReactiveCommand().WithSubscribe(() => _calculatorApplicationService.Run(calculator));
+            CancelCommand = new ReactiveCommand().WithSubscribe(() => _calculatorApplicationService.Cancel(calculator));
+
+            Result = calculator.ToReactivePropertyAsSynchronized(x => x.Result);
+        }
+    }
 }
 ```
 
@@ -75,9 +93,10 @@ Unordered list
 
 Ordered list
 
-1.	Red
-2.  Green
-3.  Blue
+1. **Red**: this is bold test.
+    1. Green
+    1. Yellow
+1.  Blue
 
 ## Tables
 

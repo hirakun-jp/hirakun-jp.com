@@ -1,11 +1,15 @@
 ---
-title: "Fearlessness: How to Stop Running from Space"
-description: "This post uses an external image as a thumbnail"
-date: 2020-02-11T17:30
+title: "【parasiTrader】 Prism で MVVM アーキテクチャを実装する"
+description: "悩ましい"
+date: 2020-02-11
+lastmod: 2022-11-26
 thumb: "https://i.imgur.com/AAVR2qH.jpg"
 tags: 
-    - tips
-    - sample
+    - システム開発
+    - parasiTrader
+    - WPF
+    - Prism
+    - MVVM
 ---
 
 We spend our days filling in every available space, cramming in more tasks, responding to messages, checking social media and online sites, watching videos.

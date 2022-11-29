@@ -1,7 +1,8 @@
 ---
 title: "Getting Started with Traveling Ultralight"
 description: "Start by getting a small backpack and then just travel with what fits in that"
-date: 2020-04-23T19:00
+date: 2020-11-23
+lastmod: 2021-01-11
 thumb: "traveling-kuy.jpg"
 tags: popular
 ---
@@ -29,3 +30,5 @@ I really love traveling this way, and am more than willing to sacrifice bringing
 By the way, you don’t need much more than this kind of setup even in everyday life.
 
 For more info on this, check out my Ultralight ebook, and my friend Tynan has a great book called Forever Nomad.
+
+<script src="https://gist.github.com/hirakun-jp/30066fdf9aac4a0cf496bc44f11145d8.js"></script>

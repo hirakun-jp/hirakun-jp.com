@@ -40,6 +40,11 @@ module.exports = {
             'h1': {
               fontWeight: '700'
             },
+            'h2': {
+              borderLeft: '7px solid',
+              paddingLeft: '7px',
+              borderLeftColor: theme('colors.teal.600')
+            },
             'blockquote': {
               fontWeight: 'normal',
               color: theme('colors.gray.700')

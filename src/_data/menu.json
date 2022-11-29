@@ -6,10 +6,5 @@
     {
         "label": "Tag List",
         "url": "/tags"
-    },
-    {
-        "label": "GitHub",
-        "url": "https://github.com/hirakun-jp",
-        "newTab": true
     }
 ]

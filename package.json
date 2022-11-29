@@ -22,12 +22,12 @@
 	"homepage": "https://github.com/hirakun-jp/hirakun-jp.com#readme",
 	"devDependencies": {
 		"@11ty/eleventy": "^1.0.2",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
 		"@tailwindcss/typography": "^0.3.1",
-		"@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
 		"cross-env": "^7.0.3",
 		"eleventy-plugin-tailwindcss": "^0.3.0",
 		"html-minifier": "^4.0.0",
-		"luxon": "^1.24.1",
+		"luxon": "^3.1.0",
 		"rimraf": "^3.0.2",
 		"terser": "^4.8.0"
 	}

@@ -1,6 +1,7 @@
 ---
 description: "Example of post without a title"
-date: 2020-04-20T18:30
+date: 2020-04-20
+lastmod: 2022-11-22
 thumb: "windows-7.jpg"
 tags: sample
 ---
@@ -14,6 +15,8 @@ Concerns greatest margaret him absolute entrance nay. Door neat week do find pas
 Dwelling and speedily ignorant any steepest. Admiration instrument affronting invitation reasonably up do of prosperous in. Shy saw declared age debating ecstatic man. Call in so want pure rank am dear were. Remarkably to continuing in surrounded diminution on. In unfeeling existence objection immediate repulsive on he in. Imprudence comparison uncommonly me he difficulty diminution resolution. Likewise proposal differed scarcely dwelling as on raillery. September few dependent extremity own continued and ten prevailed attending. Early to weeks we could. 
 
 By so delight of showing neither believe he present. Deal sigh up in shew away when. Pursuit express no or prepare replied. Wholly formed old latter future but way she. Day her likewise smallest expenses judgment building man carriage gay. Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on. 
+
+<script src="https://gist.github.com/hirakun-jp/31d33e3af8276d403dd8822c2b3a99a5.js"></script>
 
 In it except to so temper mutual tastes mother. Interested cultivated its continuing now yet are. Out interested acceptance our partiality affronting unpleasant why add. Esteem garden men yet shy course. Consulted up my tolerably sometimes perpetual oh. Expression acceptance imprudence particular had eat unsatiable. 
 

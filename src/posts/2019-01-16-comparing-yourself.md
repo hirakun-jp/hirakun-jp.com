@@ -1,6 +1,7 @@
 ---
 title: "Stop Comparing Yourself to Others #SelfLove"
-date: 2019-01-16T10:00
+date: 2019-01-16
+lastmod: 2022-11-27
 thumb: "comparing-yourself.jpg"
 tags: 
     - motive
