@@ -4,6 +4,8 @@ description: "GCE を使ってデータ収集処理基盤を構築する手順�
 date: 2022-12-22
 thumb: "2022-12-22-batch-sloth-diagram.drawio.png"
 tags: 
+    - 勉強
+    - "Associate Cloud Engineer"
     - Google Cloud
     - GCE
 ---
