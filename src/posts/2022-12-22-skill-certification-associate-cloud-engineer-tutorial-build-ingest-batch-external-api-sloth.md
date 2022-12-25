@@ -2,6 +2,7 @@
 title: "【Google Cloud】 GCE でデータ収集処理基盤を構築する方法"
 description: "GCE を使ってデータ収集処理基盤を構築する手順をご紹介します。"
 date: 2022-12-22
+lastmod: 2022-12-25
 thumb: "2022-12-22-batch-sloth-diagram.drawio.png"
 tags: 
     - 勉強
@@ -269,7 +270,7 @@ Compute Engine のインスタンススケジュールを設定することで�
 1. Cloud Shell のターミナルで、以下のコマンドを実行して、Compute Engine インスタンスの初期設定をします。
 
     ```sh
-    # ssh
+    # ssh connection start
     gcloud compute ssh ${VM_NAME_TEST} --zone ${VM_ZONE_ID} --tunnel-through-iap
 
     # install or update needed software
@@ -282,6 +283,9 @@ Compute Engine のインスタンススケジュールを設定することで�
     # instal the agent
     curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh
     sudo bash add-google-cloud-ops-agent-repo.sh --also-install
+
+    # ssh connection end
+    exit
     ```
 
     IAP トンネルを通してインスタンスへ接続して、OSのアップデートやリソースモニタリングのエージェントをインストールしています。[24]
