@@ -1,11 +1,10 @@
 ---
-title: "【Google Cloud】 GCE でデータ収集処理基盤を構築する方法"
-description: "GCE を使ってデータ収集処理基盤を構築する手順をご紹介します。"
+title: 【Google Cloud】 GCE でデータ収集処理基盤を構築する方法
+description: GCE を使ってデータ収集処理基盤を構築する手順をご紹介します。
 date: 2022-12-22
 lastmod: 2023-01-13
-thumb: "2022-12-22-batch-sloth-diagram.drawio.png"
+thumb: 2022-12-22-batch-sloth-diagram.drawio.png
 tags: 
-    - プライベート
     - 勉強
     - Associate Cloud Engineer
     - Google Cloud
