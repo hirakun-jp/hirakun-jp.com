@@ -2,7 +2,7 @@
 title: Associate Cloud Engineer 認定試験に合格するまでにやったこと
 description: 2023 年 1 月 7 日実施の Associate Cloud Engineer 認定資格試験に合格したので、勉強方法をご紹介します。
 date: 2023-01-19
-thumb: 2023-01-19-201833.png
+thumb: 
 tags: 
     - 勉強
     - Associate Cloud Engineer
