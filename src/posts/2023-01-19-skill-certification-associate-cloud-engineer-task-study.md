@@ -29,11 +29,11 @@ tags:
 1. Cloud Engineer の学習プログラムの問診 PDF を再度一通り解く
 1. 模擬試験を再度受ける
 
-## 模擬試験を受ける
+## Step 1: 模擬試験を受ける
 
 [Associate Cloud Engineer 試験の概要](https://cloud.google.com/certification/cloud-engineer?hl=ja)のステップ 4 にある模擬試験を受けて、どんな問題がどんな形式で出題されるのかを初めに確認します。
 
-## Cloud Engineer の学習プログラムの動画を一通り観る
+## Step 2: Cloud Engineer の学習プログラムの動画を一通り観る
 
 [Associate Cloud Engineer 試験の概要](https://cloud.google.com/certification/cloud-engineer?hl=ja)のステップ 3 にある学習プログラムに沿って学習を進めます。
 
@@ -45,7 +45,7 @@ tags:
 
 学習プログラムはところどころ（というよりほぼ）英語なので、英語が読める・聞けることが望ましいです。
 
-## Google Cloud のサービスを使ってシステムを実際に作ってみる
+## Step 3: Google Cloud のサービスを使ってシステムを実際に作ってみる
 
 コースをすべて受講したら、次は実際に Google Cloud にプロジェクトを作成して、各サービスを触ってみます。
 
@@ -53,13 +53,13 @@ Compute Engineを使って、何かしらシステムを作ってみることを
 
 私はデータ収集処理の基盤構築という題材でシステムを構築してみました。
 
-## Cloud Engineer の学習プログラムの問診 PDF を再度一通り解く
+## Step 4: Cloud Engineer の学習プログラムの問診 PDF を再度一通り解く
 
 Cloud Engineer の学習プログラムの初回コース「Preparing for Your Associate Cloud Engineer Journey」にある、「Study plan resources」を一通り読みます。
 
 その中に、問診「Diagnostic Question」があるのでこれを解きます。解いて分からない場合や間違った場合は、解答と参考リンク先をよく読んで理解します。
 
-## 模擬試験を再度受ける
+## Step 5: 模擬試験を再度受ける
 
 再度、模擬試験を受けてみて、90 % ほど解答できることを確認してから試験に臨みました。
 
