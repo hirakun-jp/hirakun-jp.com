@@ -2,7 +2,8 @@
 title: Associate Cloud Engineer 認定試験に合格するまでにやったこと
 description: 2023 年 1 月 7 日実施の Associate Cloud Engineer 認定資格試験に合格したので、勉強方法をご紹介します。
 date: 2023-01-19
-thumb: 
+lastmod: 2023-01-21
+thumb: 2023-01-19-201833.png
 tags: 
     - 勉強
     - Associate Cloud Engineer
@@ -26,7 +27,7 @@ tags:
 1. 模擬試験を受ける
 1. Cloud Engineer の学習プログラムのコースを一通り受講する
 1. Google Cloud のサービスを使ってシステムを実際に作ってみる
-1. Cloud Engineer の学習プログラムの問診 PDF を再度一通り解く
+1. Cloud Engineer の学習プログラムの問診 PDF を一通り解く
 1. 模擬試験を再度受ける
 
 ## Step 1: 模擬試験を受ける
@@ -37,7 +38,7 @@ tags:
 
 [Associate Cloud Engineer 試験の概要](https://cloud.google.com/certification/cloud-engineer?hl=ja)のステップ 3 にある学習プログラムに沿って学習を進めます。
 
-学習プログラムには以下の 3 種類が用意されていますが、このうちコースだけをすべて受講します。
+学習プログラムには以下の 3 種類が用意されていますが、このうちコースだけをすべて受講します。ただし、初回コース「Preparing for Your Associate Cloud Engineer Journey」にある「Study plan resources」は飛ばします。
 
 - コース（Course）: ビデオとクイズで学習するもの
 - ラボ（Lab）: Hands-on 形式で Google Cloud サービスを操作して学習するもの
@@ -53,15 +54,19 @@ Compute Engineを使って、何かしらシステムを作ってみることを
 
 私はデータ収集処理の基盤構築という題材でシステムを構築してみました。
 
-## Step 4: Cloud Engineer の学習プログラムの問診 PDF を再度一通り解く
+## Step 4: Cloud Engineer の学習プログラムの問診 PDF を一通り解く
 
-Cloud Engineer の学習プログラムの初回コース「Preparing for Your Associate Cloud Engineer Journey」にある、「Study plan resources」を一通り読みます。
+Cloud Engineer の学習プログラムの初回コース「Preparing for Your Associate Cloud Engineer Journey」にあった「Study plan resources」を一通り読みます。
 
 その中に、問診「Diagnostic Question」があるのでこれを解きます。解いて分からない場合や間違った場合は、解答と参考リンク先をよく読んで理解します。
 
 ## Step 5: 模擬試験を再度受ける
 
-再度、模擬試験を受けてみて、90 % ほど解答できることを確認してから試験に臨みました。
+再度模擬試験を受けてみて、8 割以上解答できることを確認します。
+
+私は、第三者が作成した 4 回分の模擬試験も受けてみましたが、すべて正答率は 5 割ほどでした。そちらの試験はコマンドの使い方がメインのもので、Google Cloud が提供している模擬試験とは形式が異なるものでした。
+
+実際の試験では、Google Cloud が提供している模擬試験と同様の問題が出題されるので、自信を無くさないためにも第三者が作成した模擬試験は受ける必要はありません。
 
 ## 試験当日に意識すべきこと
 
@@ -73,4 +78,6 @@ Associate Cloud Engineer 試験では、以下のことを行う能力が評価�
 - クラウド ソリューションの正常なオペレーションの確保
 - アクセスとセキュリティの構成
 
-Cloud SDK の CLI ツールのコマンドのオプションを詳細に答えられる必要はありません。架空ではありますが、実際にありそうな例に沿った問題に対して、解決策は何かを考える力が問われます。なので、Google Cloud のどのサービスのどんな特徴が解決策として合致するかを判断するために、問題文をよく読みましょう。また「最小の労力で」「もっともコストを低く」「Google が推奨する」等の文脈に注意しましょう。
+Cloud SDK の CLI ツールのコマンドのオプションを詳細に答えられる必要はありません。架空ではありますが、実際にありそうな例に沿った問題に対して、解決策は何かを考える力が問われます。なので、Google Cloud のどのサービスのどんな特徴が解決策として合致するかを判断するために、問題文をよく読みましょう。
+
+また「最小の労力で」「もっともコストを低く」「Google が推奨する」等の文脈に注意しましょう。問題を解決する方法は複数あります。その中で、最も適した解を判断することが求められます。
