@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="max-w-5xl mx-auto">
+<article class="max-w-3xl mx-auto">
     <header class="mb-14">
         <h1 class="text-3xl text-center font-bold leading-normal text-gray-900 mt-0 mb-3">{{ title }}</h1>
         <div class="text-center">投稿: {{ page.date | readableDate }}</div>
@@ -25,7 +25,7 @@ layout: default
         </div>
         {% endif %}
     </header>
-    <div id="content" class="prose text-gray-800 max-w-none">
+    <div id="content" class="prose text-gray-800 max-w-none text-base">
         {{ content | safe }}
     </div>
     {% if site.disqusShortname %}
